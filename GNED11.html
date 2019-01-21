@@ -1,0 +1,236 @@
+<html>
+	<head>
+		<title>
+			Kontekstwalisadong Komunikasyon - IGProAid Online Tutorials
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* 	{
+				box-sizing: border-box;
+				}
+				
+			body{
+				font-family: Times New Roman;
+				margin: 0;
+				}
+				
+			.header	{
+					padding: 20px;
+					text-align: center;
+					background: lightblue;
+					color: black;
+					}
+			
+			ul 	{
+				list-style-type: none;
+				margin: 0;
+				padding: 10;
+				overflow: hidden;
+				background-color: gray;
+				}
+			li 	{
+				float: left;
+				}
+			li a, .dropbtn 	{
+							display: inline-block;
+							color: white;
+							text-align: center;
+							padding: 14px 82px;
+							text-decoration: none;
+							}
+			li a:hover, .dropdown:hover .dropbtn 	{
+													background-color: red;
+													}
+			li.dropdown {
+						display: inline-block;
+						}
+			.dropdown-content 	{
+								display: none;
+								position: absolute;
+								background-color: lightblue;
+								min-width: 160px;
+								box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+								z-index: 1;
+								}
+			.dropdown-content a {
+								color: black;
+								padding: 12px 76px;
+								text-decoration: none;
+								display: block;
+								text-align: center;								
+								}
+			.dropdown-content a:hover	{background-color: gray}
+			.dropdown:hover .dropdown-content 	{
+												display: block;
+												}
+			.main	{
+					display: flex;
+					}
+			.leftside	{
+						flex: 30%;
+						background-color: lightgreen;
+						border: 5px solid green;
+						}
+			.rightside	{
+						flex: 70%;
+						background-image: url("A2.jpg");
+						background-repeat: no-repeat;
+						background-attachment: fixed;
+						background-size: 1360px 1080px;
+						padding: 20px;
+						color: white;
+						}
+			.content{
+					background-color: lightgrey;
+					width: 1000x;
+					border: 2px solid gray;
+					padding: 10px;
+					margin: 10px;
+					}
+					
+			.footer {
+					padding: 5px;
+					text-align: center;
+					background: lightblue;
+					}
+			@media screen and (max-width: 700px)	{
+													.row, .navbar	{   
+																	flex-direction: column;
+																	}
+													}	
+													
+		</style>
+	</head>
+	<body>		
+		<!-- Header -->
+		<div class="header">
+		<h1 style="font-family: courier;">IGProAid's Online Tutorials</h1>
+		<h4>Computer Science Subjects</h4>
+		<center>
+		<button><a href="register.html"><font color=black>Sign Up</font></a></button>     <button><a href="login.html"><font color=black>Log In</font></a></button>
+		</center>
+		</div>
+	
+		<!-- Navigation Bar -->
+		<ul>
+		<li><a href="index.html"><b>HOME</b></a></li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn"><b>YEAR</b></a>
+		<div class="dropdown-content">
+			<a href="firstyear.html">First Year</a>
+			<a href="secondyear.html">Second Year</a>
+			<a href="thirdyear.html">Third Year</a>
+			<a href="fourthyear.html">Fourth Year</a>
+		</div>
+		<li><a href="AboutUs.html"><b>ABOUT US</b></a></li>
+		<li><a href="ContactUs.html"><b>CONTACT US</b></a></li>
+		</li>
+		</ul>
+		
+		<div class="main">
+		<div class="leftside">
+		<center>
+		<br><br>
+		<hr color=red><font face=verdana>
+		<h1>First Year</h1>
+		<hr color=red></font>
+		<h2>First Semester</h2>
+		<h2>Subject Code:</h2>
+		</center>
+		<a href="DCIT22.html"><font color=blue>DCIT 22 - Computer Programming 1</font></a>
+		<br><br>
+		<a href="COSC50.html"><font color=blue>COSC 50 - Discrete Structure</font></a>
+		<br><br>
+		<a href="GNED05.html"><font color=blue>GNED 05 - Purposive Communication</font></a>
+		<br><br>
+		<a href="FITT01.html"><font color=blue>FITT 01 - Movement Enhancement</font></a>
+		<br><br>
+		<a href="GNED02.html"><font color=blue>GNED 02 - Ethics</font></a>
+		<br><br>
+		<a href="GNED11.html"><font color=blue>GNED 11 - Kontekstwalisadong Komunikasyon</font></a>
+		<br><br>
+		<a href="DCIT21.html"><font color=blue>DCIT 21 - Introduction to Computing</font></a>
+		<br><br>
+		<center>
+		<h2>Second Semester</h2>
+		<h2>Subject Code:</h2>
+		</center>
+		<a href="GNED01.html"><font color=blue>GNED 01 - Art Appreciation</font></a>
+		<br><br>
+		<a href="ITEC50A.html"><font color=blue>ITEC 50A - Web System and Technologies 1</font></a>
+		<br><br>
+		<a href="GNED06.html"><font color=blue>GNED 06 - Science, Technology and Society</font></a>
+		<br><br>
+		<a href="GNED03.html"><font color=blue>GNED 03 - Mathematics in the Modern World</font></a>
+		<br><br>
+		<a href="GNED12.html"><font color=blue>GNED 12 - Dalumat ng/sa Filipino</font></a>
+		<br><br>
+		<a href="DCIT23A.html"><font color=blue>DCIT 23A - Computer Programming 2</font></a>
+		<br><br>
+		<a href="FITT2.html"><font color=blue>FITT 2 - Fitness Exercise</font></a>
+		<br><br>
+		</div>
+		
+		<!-- rightside -->
+		<div class="rightside">
+		<center>
+		<br>
+		<hr color=gray><font color=white>
+		<h1>KONTEKSTWALISADONG KOMUNIKASYON</h1>
+		<hr color=gray></font>
+		<br><br>
+		</center>
+			<div class=content>
+		<font color=black>
+		<h3>Komunikasyon - simbolikong gawain ng dalawa o higit pang bilang ng partisipant.</h3>
+		<br>
+		<h3>Dalawang Uri ng Pahiwatig</h3>
+		<h3>1. Intensyonal - direktang pagpapahayag</h3>
+		<h3>2. Di-Intensyonal - hindi layunin</h3>
+		<br>
+		<h3>Tagapagdala - pinagmulan ng mensahe</h3>
+		<h3>Midyum - ginagamit para maipadala ang mensahe</h3>
+		<h3>Tagatanggap - taong pinadalhan ng mensahe</h3>
+		<h3>Ingay - sagabal sa pagpapadala ng mensahe</h3>
+		<br>
+		<h3>Uri ng Komunikasyon</h3>
+		<h3>Verbal - paghahatid ng mensahe sa pamamagitan ng mga salitang simbolo na kumakatawan sa mga ideya at bagay-bagay.</h3>
+		<h3>Di-Verbal - naipapakita ang mensahe sa pamamagitan ng kilos o galaw ng katawan.</h3>
+		<br>
+		<h3>Anyo ng Di-Verbal na Komunikasyon</h3>
+		<h3>1. Kinesika</h3>
+		<h3>2. Proksemika</h3>
+		<h3>3. Pandama o Paghawak</h3>
+		<h3>4. Paralanguage</h3>
+		<h3>5. Katahimikan</h3>
+		<h3>6. Kapaligiran</h3>
+		<h3>7. Simbolo</h3>
+		<h3>8. Kulay </h3>
+		<br>
+		<h3>Konsiderasyon sa Mabisang Komunikasyon:</h3>
+		<h3>S - etting</h3>
+		<h3>P - eaking</h3>
+		<h3>E - nds</h3>
+		<h3>A - ct Sequence</h3>
+		<h3>K - eys</h3>
+		<h3>I - nstrumentalities</h3>
+		<h3>N - orms</h3>
+		<h3>G - enre</h3>
+		<br>
+		<h3>Antas ng Komunikasyon</h3>
+		<h3>- Komunikasyong Intrapersonal</h3>
+		<h3>- Komunikasyong Interpersonal</h3>
+		<h3>- Komunikasyong Pampubliko</h3>
+		<br>
+		</font>
+		</div>
+		</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">
+		<h5><b>Copyrights &copy2018 - 2019. All Rights Reserved.</b></h5>
+		</div>
+	</body>
+</html>
